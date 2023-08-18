@@ -82,7 +82,7 @@
     --dark_blue: hsl(209, 33%, 12%);
 
     /* box-shadow color */
-    --btn_shadow: 0px 17px 15px -7px hsl(223, 100%, 88%);
+    --btn_shadow: 0rem 1.0625rem 0.9375rem -0.4375rem hsl(223, 100%, 88%);
 
     /* font-weights */
     --light: 300;
@@ -104,14 +104,14 @@
 
   .logo {
     display: block;
-    width: 60px;
+    width: 3.75rem;
   }
 
   .main {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    max-width: 640px;
+    max-width: 40rem;
   }
 
   .hero {
@@ -135,7 +135,7 @@
   }
 
   .hero__paragraph {
-    font-size: clamp(16px, 3.5vw, 20px);
+    font-size: clamp(1rem, 3.5vw, 1.25rem);
     font-weight: var(--light);
     color: black;
   }
@@ -154,8 +154,8 @@
     padding: 0.5rem;
     padding-left: 2rem;
     outline: none;
-    border: 1px solid var(--pale_blue);
-    border-radius: 30px;
+    border: 0.0625rem solid var(--pale_blue);
+    border-radius: 1.875rem;
     background-image: none;
     background-color: transparent;
     box-shadow: none;
@@ -199,9 +199,9 @@
     font-weight: var(--light);
     letter-spacing: 0.02em;
     color: white;
-    padding: 8px;
+    padding: 0.5rem;
     border: none;
-    border-radius: 30px;
+    border-radius: 1.875rem;
     background-color: var(--blue);
     box-shadow: var(--btn_shadow);
     transition: all 0.2s ease-in;
@@ -212,7 +212,7 @@
   }
 
   .hero__img {
-    margin: 64px 0 32px;
+    margin: 4rem 0 2rem;
   }
 
   .footer {
@@ -235,7 +235,7 @@
     place-content: center;
     width: 2rem;
     aspect-ratio: 1/1;
-    border: 1px solid var(--pale_blue);
+    border: 0.0625rem solid var(--pale_blue);
     border-radius: 50%;
     transition: all .3s cubic-bezier(.4,0,.2,1);
   }
@@ -256,14 +256,14 @@
   }
 
   .copyright {
-    font-size: 12px;
+    font-size: 0.75rem;
     color: var(--gray);
   }
 
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 37.5rem) {
 
     .logo {
-        width: 90px;
+        width: 5.625rem;
     }
 
     .form {
@@ -283,7 +283,7 @@
     }
 
     .form__error-message {
-        font-size: 12px;
+        font-size: 0.75rem;
         text-align: left;
         margin-left: 1.5rem;
     }
