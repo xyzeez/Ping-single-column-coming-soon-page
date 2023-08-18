@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Ping coming soon page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e934b1334f.js" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" aria-label="Ping" class="logo">
+            <img src="./images/logo.svg" alt="" class="logo__img">
+        </a>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <h1 class="hero__title">We are launching <span class="hero__title--highlighted">soon!</span></h1>
+            <p class="hero__paragraph">Subscribe and get notified</p>
+            <form action="#" id="form" class="form hero__form" novalidate>
+                <div class="form__input-container">
+                    <label for="emailAddress" class="sr-only">Please Input your email:</label>
+                    <input type="email" name="email" id="emailAddress" aria-errormessage="errorMessage" placeholder="Your email address" class="form__input">
+                    <p id="errorMessage" aria-live="assertive" class="form__error-message">Please provide a valid email address</p>
+                </div>
+                <button type="submit" id="formBtn" class="btn form__btn">Notify Me</button>
+            </form>
+            <img src="./images/illustration-dashboard.png" alt="" class="hero__img">
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="social-media">
+            <h3 class="sr-only">Social Media Links</h3>
+            <ul class="social-media__list">
+                <li>
+                    <a href="#" aria-label="facebook" class="social-media__link">
+                        <i class="fa-brands fa-facebook-f social-media__icon"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" aria-label="x-twitter" class="social-media__link">
+                        <i class="fa-brands fa-x-twitter social-media__icon"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" aria-label="instagram" class="social-media__link">
+                        <i class="fa-brands fa-instagram social-media__icon"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <small class="copyright">&copy; Copyright Ping. All rights reserved.</small>
+    </footer>
+</body>
+</html>
