@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [URL here](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-bem-purecss-js-MolKKBLP8-)
-- Live Site URL: [URL here](https://base-apparel-coming-soon-femc.netlify.app/)
+- Solution URL: [URL here](https://www.frontendmentor.io/solutions/ping-single-column-comingsoon-page-bem-purecss-js-Omdmff_YDP)
+- Live Site URL: [URL here](https://ping-coming-soon-page-fmc.netlify.app/)
 
 ## My process
 
