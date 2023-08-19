@@ -138,6 +138,7 @@
     font-size: clamp(1rem, 3.5vw, 1.25rem);
     font-weight: var(--light);
     color: black;
+    margin-bottom: 1rem;
   }
 
   .form {
